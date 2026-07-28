@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#works .wrapper {
+  padding-bottom: 60px;
+}
+
+.works_slider2 {
+  margin-bottom: 90px;
+}
+
+.works_slider div,
+.works_slider2 div {
+  padding: 5px;
+}
+
+.works_slider img,
+.works_slider2 img {
+  height: 30vw;
+  max-height: 200px;
+  min-height: 100px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+  .works_slider img,
+  .works_slider2 img {
+    max-height: 100px;
+    min-height: 100px;
+  }
+}

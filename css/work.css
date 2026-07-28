@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.heading span {
+  font-size: 16px;
+}
+
+img {
+  width: 700px;
+}
+
+.work_contants {
+  margin: 90px 0 0;
+}
+
+.work_img {
+  text-align: center
+}
+
+.work_text_item {
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.work_text_item:last-of-type {
+  margin-bottom: 0;
+}
+
+.work_text_title {
+  width: 20%;
+  color: var(--sub_color2);
+}
+
+.work_text_text {
+  width: 80%;
+}
+
+.tool_item {
+  display: flex;
+  gap: .5em;
+}
+
+.tool {
+  background-color: var(--sub_color);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  padding: 10%;
+}
+
+.matsunokiaikido_weblink {
+  margin-bottom: 20px;
+}
+
+.matsunokiaikido_weblink span {
+  color: var(--sub_color2);
+  margin-right: 1em;
+}
+
+
+@media screen and (max-width: 800px) {
+  .heading span {
+    font-size: 12px;
+  }
+
+  .work_contants {
+    margin: 40px 0 0;
+  }
+
+  .work_text_title {
+    width: 100%;
+    margin-bottom: .5em;
+  }
+
+  .work_text_text {
+    width: 100%;
+  }
+
+  .work_text_item {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  video {
+    padding: 5%;
+  }
+
+  .matsunokiaikido_weblink span {
+    display: block;
+    margin-right: 0;
+  }
+}
